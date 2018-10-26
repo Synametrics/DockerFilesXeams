@@ -9,7 +9,7 @@ MAINTAINER Synametrics <support@synametrics.com>
 ENV SYN_DATA_DIR="/data/XeamsData" DEBIAN_FRONTEND=noninteractive HOME="/root" TERM=xterm
 
 # set ports
-EXPOSE 25 26 110 143 443 465 587 993 995 2525 5272 5273
+EXPOSE 25 26 80 110 143 443 465 587 993 995 2525 5272 5273
 
 
 # Use baseimage-docker's init system
