@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppConfiguration>
+	<webServerPort>5272</webServerPort>
+	<additionalVMParams>-server -Xmx512m -DLoggingConfigFile=logconfig.xml</additionalVMParams>
+	<vmPath>/usr/bin/java</vmPath>
+	<ntServiceCommand>/etc/init.d/firstrun.sh start</ntServiceCommand>
+</AppConfiguration>
